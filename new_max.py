@@ -35,9 +35,7 @@ try:
 
 except FileNotFoundError:
     print("Errore: file non trovato. Controlla il nome e riprova.")
-except ValueError:
-    print("Errore: il file contiene dati non numerici.")
-except Exception as e:
-    print(f"Si è verificato un errore: {e}")
+
+
 
 
